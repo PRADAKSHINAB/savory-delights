@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Live Demo
-[Click here to view the live website](https://pradakshinab.github.io/savory-delight/)
+[Click here to view the live website](https://pradakshinab.github.io/savory-delights/)
 
 ---
 
