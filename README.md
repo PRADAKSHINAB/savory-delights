@@ -1,11 +1,11 @@
-# 🍽️ Savoury Delight
+# 🍽️ Savory Delight
 
-**Savoury Delight** is a modern, restaurant-themed website built using **HTML** and **CSS**, featuring interactive menu, reservation, contact, and feedback pages. Developed as part of the **Web Wonder** competition.
+**Savory Delight** is a modern, restaurant-themed website built using **HTML** and **CSS**, featuring interactive menu, reservation, contact, and feedback pages. Developed as part of the **Web Design** competition.
 
 ---
 
 ## 🔗 Live Demo
-[Click here to view the live website](https://yourusername.github.io/savory-delight/)
+[Click here to view the live website](https://pradakshinab.github.io/savory-delight/)
 
 ---
 
@@ -21,6 +21,7 @@
 ---
 
 ## 🛠️ Technologies Used
+```
 savory-delight/
 │ 
 ├── index.html          # Homepage
@@ -39,7 +40,7 @@ savory-delight/
      ├── sushi_rolls.jpeg
      ├── reservation.png
      └── contact.jpg
-
+```
 ---
 
 ## ✨ Credits
