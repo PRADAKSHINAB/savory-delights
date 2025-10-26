@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Live Demo
-[Click here to view the live website](https://yourusername.github.io/savoury-delight/)
+[Click here to view the live website](https://yourusername.github.io/savory-delight/)
 
 ---
 
@@ -21,26 +21,19 @@
 ---
 
 ## 🛠️ Technologies Used
-- HTML5  
-- CSS3  
-- Images & Media Assets  
-
----
-
-## 📂 Folder Structure
-savoury-delight/
+savory-delight/
+│ 
+├── index.html          # Homepage
+├── menu.html           # Menu page
+├── reservation.html    # Table reservation page
+├── contact.html        # Contact page
+├── feedback.html       # Feedback page
 │
-├── index.html           # Homepage
-├── menu.html            # Menu page
-├── reservation.html     # Table reservation page
-├── contact.html         # Contact page
-├── feedback.html        # Feedback page
+├── style.css           # Main CSS file (homepage styling)
+├── style1.css          # Additional CSS (menu or other pages)
+├── style2.css          # Additional CSS (reservation/contact/feedback)
 │
-├── style.css            # Main CSS file (homepage styling)
-├── style1.css           # Additional CSS (menu or other pages)
-├── style2.css           # Additional CSS (reservation/contact/feedback)
-│
-└── images/              # All images used in the website
+└── images/             # All images used in the website
      ├── pizza.jpg
      ├── steak.jpg
      ├── sushi_rolls.jpeg
@@ -50,7 +43,7 @@ savoury-delight/
 ---
 
 ## ✨ Credits
-Developed as part of the **Web Wonder** competition.
+Developed as part of the **Web Design** competition.
 
 --- 
 
