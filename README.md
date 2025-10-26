@@ -28,3 +28,31 @@
 ---
 
 ## 📂 Folder Structure
+savoury-delight/
+│
+├── index.html           # Homepage
+├── menu.html            # Menu page
+├── reservation.html     # Table reservation page
+├── contact.html         # Contact page
+├── feedback.html        # Feedback page
+│
+├── style.css            # Main CSS file (homepage styling)
+├── style1.css           # Additional CSS (menu or other pages)
+├── style2.css           # Additional CSS (reservation/contact/feedback)
+│
+└── images/              # All images used in the website
+     ├── pizza.jpg
+     ├── steak.jpg
+     ├── sushi_rolls.jpeg
+     ├── reservation.png
+     └── contact.jpg
+
+---
+
+## ✨ Credits
+Developed as part of the **Web Wonder** competition.
+
+--- 
+
+*"Delicious design, delightful experience."* 🍽️
+

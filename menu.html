@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Savory Delights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Google Fonts for custom font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom Styles for "Savory Delights" */
+        .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem; /* Increase font size */
+            background: linear-gradient(45deg, #ff007f, #ff9900, #ff5733); /* Glittery Gradient */
+            background-size: 200% 200%;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: glitter 3s ease-in-out infinite; /* Glitter animation */
+        }
+
+        /* Glittering effect animation */
+        @keyframes glitter {
+            0% {
+                background-position: 200% 0;
+            }
+            50% {
+                background-position: -200% 0;
+            }
+            100% {
+                background-position: 200% 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <!-- Customizing "Savory Delights" brand with a unique font, size, and gradient glitter effect -->
+        <a class="navbar-brand" href="index.html">Savory Delights</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reservation.html">Reservations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Menu Section -->
+<section id="menu" class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+        <!-- Menu Item 1 -->
+        <div class="col-md-4">
+            <div class="card menu-item shadow-sm">
+                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzE5fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" class="card-img-top" alt="Pasta">
+                <div class="card-body">
+                    <h5 class="card-title">Creamy Pasta</h5>
+                    <p class="card-text">Rich and creamy pasta with a blend of fresh herbs and spices. <strong>$12.99</strong></p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 2 -->
+        <div class="col-md-4">
+            <div class="card menu-item shadow-sm">
+                <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzE5fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" class="card-img-top" alt="Burger">
+                <div class="card-body">
+                    <h5 class="card-title">Classic Burger</h5>
+                    <p class="card-text">Juicy burger topped with fresh veggies and our special sauce. <strong>$10.99</strong></p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 3 -->
+        <div class="col-md-4">
+            <div class="card menu-item shadow-sm">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzE5fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" class="card-img-top" alt="Salad">
+                <div class="card-body">
+                    <h5 class="card-title">Garden Fresh Salad</h5>
+                    <p class="card-text">A healthy and refreshing salad made with local greens. <strong>$8.99</strong></p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 4 -->
+        <div class="col-md-4">
+            <div class="card menu-item shadow-sm">
+                <img src="images/pizza.jpg" class="card-img-top" alt="Pizza">
+                <div class="card-body">
+                    <h5 class="card-title">Margherita Pizza</h5>
+                    <p class="card-text">Classic pizza with fresh mozzarella, tomatoes, and basil. <strong>$14.99</strong></p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 5 -->
+        <div class="col-md-4">
+            <div class="card menu-item shadow-sm">
+                <img src="images/steak.jpg" class="card-img-top" alt="Steak">
+                <div class="card-body">
+                    <h5 class="card-title">Grilled Steak</h5>
+                    <p class="card-text">Juicy steak grilled to perfection, served with mashed potatoes. <strong>$22.99</strong></p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 6 -->
+        <div class="col-md-4">
+            <div class="card menu-item shadow-sm">
+                <img src="images/sushi_rolls.jpeg" class="card-img-top" alt="Sushi">
+                <div class="card-body">
+                    <h5 class="card-title">Fresh Sushi</h5>
+                    <p class="card-text">Delicious sushi rolls made with fresh fish and rice. <strong>$19.99</strong></p>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-section text-center">
+    <a href="#" class="social-link"><img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook"></a>
+    <a href="#" class="social-link"><img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram"></a>
+    <a href="#" class="social-link"><img src="https://img.icons8.com/color/48/twitter-circled.png" alt="Twitter"></a>
+    <p>&copy; 2024 Savory Delights | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

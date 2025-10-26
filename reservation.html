@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Savory Delights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <style> .navbar-brand {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem; /* Increase font size */
+        background: linear-gradient(45deg, #ff007f, #ff9900, #ff5733); /* Glittery Gradient */
+        background-size: 200% 200%;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: glitter 3s ease-in-out infinite; /* Glitter animation */
+    }</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Savory Delights</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="reservation.html">Reservations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Reservation Form Section with Background -->
+<section class="reservation-section">
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Book a Table</h2>
+        <form class="reservation-form mx-auto" style="max-width: 600px;">
+            <!-- Date -->
+            <div class="mb-3">
+                <label for="reservationDate" class="form-label">Date</label>
+                <input type="date" class="form-control" id="reservationDate" required>
+            </div>
+            
+            <!-- Time -->
+            <div class="mb-3">
+                <label for="reservationTime" class="form-label">Time</label>
+                <input type="time" class="form-control" id="reservationTime" required>
+            </div>
+
+            <!-- Number of Guests -->
+            <div class="mb-3">
+                <label for="guests" class="form-label">Number of Guests</label>
+                <select class="form-select" id="guests" required>
+                    <option value="" disabled selected>Select Guests</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6+">6+</option>
+                </select>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+
+            <!-- Special Requests -->
+            <div class="mb-3">
+                <label for="specialRequests" class="form-label">Special Requests</label>
+                <textarea class="form-control" id="specialRequests" rows="3" placeholder="Any dietary restrictions or seating preferences?"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Reserve Now</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-section text-center">
+    <a href="#" class="social-link"><img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook"></a>
+    <a href="#" class="social-link"><img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram"></a>
+    <a href="#" class="social-link"><img src="https://img.icons8.com/color/48/twitter-circled.png" alt="Twitter"></a>
+    <p>&copy; 2024 Savory Delights | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
